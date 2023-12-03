@@ -1,0 +1,112 @@
+*{
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.card button {
+    background-color: transparent;
+    background-color: #ffa4077e;
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #ffa407;
+    color: #ffffff; /* Set text color to white on hover */
+}
+
+.navbar-brand img{
+    height: 60px;
+    width: 130px;
+}
+
+#banner .bg-image{
+    background-image: url('./images/bg\ banner-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+
+.logo img{
+    height: 30px;
+    width: 65px;
+}
+
+#ordernow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    background-image: url('./images/order\ bg-01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ordernow .container {
+    max-width: 600px;
+}
+
+#ordernow h3 {
+    font-size: 3em;
+}
+
+#features .btn{
+    box-shadow: 0 4px 8px rgba(4, 0, 0, 0.650);
+}
+
+#ordernow a.btn {
+    box-shadow: 0 4px 8px rgba(4, 0, 0, 0.650);
+}
+
+#pre-menu .card {
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 15px;
+  }
+  
+#pre-menu .card-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border-top-left-radius: 15px;
+  }
+  
+#pre-menu .card-body button {
+    margin-top: 5px;
+  }
+
+#pre-menu .card-img-top {
+    border-radius: 15px; /* Match the card's border-radius */
+    max-width: 100%;
+  }
+
+#pre-menu .modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Add additional styling for the modal if needed */
+#pre-menu .modal-content {
+    max-width: 100%;
+    margin: 0;
+    border-radius: 15px; /* Adjust the border-radius as needed */
+  }
